@@ -13,9 +13,9 @@ This repository contains code and configuration files for deploying the `Social-
 
 ## :gear: How it works  ##
 
-1. Parent and child need to register in `Social-Contract` platform via `Desktop GUI Application`. There, the parent enters their data, the child's data (including the _open_ data of the child's bank card) and the data for entering the electronic diary platform [Dnevnik.ru] (https://dnevnik.ru/) - so that the platform can track the child's grades. During the registration process, the policy for calculating material incentives for grades is also selected.
+1. Parent and child need to register in `Social-Contract` platform via `Desktop GUI Application`. There, the parent enters their data, the child's data (including the _open_ data of the child's bank card) and the data for entering the electronic diary platform [Dnevnik.ru](https://dnevnik.ru/) - so that the platform can track the child's grades. During the registration process, the policy for calculating material incentives for grades is also selected.
 
-2. After registration on the platform is completed, the parent subscribes to the `Telegram` bot, enters the necessary identification data, and subsequently, at his request, the bot will generate a `QR` code for payment in a mobile bank (_tested in the bank [Tinkoff bank] (https://www.tinkoff.ru/)_) for a parent in accordance with the financial incentive policies described in the contract.
+2. After registration on the platform is completed, the parent subscribes to the `Telegram` bot, enters the necessary identification data, and subsequently, at his request, the bot will generate a `QR` code for payment in a mobile bank (_tested in the bank [Tinkoff bank](https://www.tinkoff.ru/)_) for a parent in accordance with the financial incentive policies described in the contract.
 
 ## :computer: Getting Started  ##
 
