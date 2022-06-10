@@ -1,0 +1,11 @@
+jupyter==1.0.0
+lxml==4.5.2
+pytest==6.0.1
+requests==2.24.0
+Flask==1.1.2
+beautifulsoup4==4.9.1
+# ------
+telebot
+pyTelegramBotApi
+schedule
+qrcode

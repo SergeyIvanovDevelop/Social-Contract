@@ -1,0 +1,21 @@
+{
+    "postgresql":{
+        "config":{
+            "subnet":"<IP-address>/32",
+            "listen_addresses":"*"
+        },
+        "superuser_password":"postgres_password",
+        "connect":{
+            "database":"<db_name>",
+            "user":{
+                "name":"<db_user_name>",
+                "password":"<db_user_password>"
+            },
+            "host":"localhost",
+            "port":5432
+        }
+    },
+    "bot":{
+        "token":"<telegram_bot_token>"
+    }
+}

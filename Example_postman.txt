@@ -1,0 +1,92 @@
+Регистрация
+URL: http://<backend_ip>:<backend_port>/registration/
+{
+	"Photo_parent": "PHOTO_BASE_64_STRING",
+	"Firstname_parent": "OLEG",
+	"Secondname_parent": "IVANOW",
+	"Login_parent": "New_user",
+	"Password_parent": "New_user_password"
+}
+
+Добавление ребенка
+URL: http://<backend_ip>:<backend_port>/add_children/
+{
+	"Login_parent" :           "New_user",
+	"Password_parent":         "New_user_password",
+	"Firstname_children":      "CHILD_NAME",
+	"Secondname_children":     "CHILD_SURNAME",
+	"Photo_children":          "PHOTO_BASE_64_STRING",
+	"Children_CARD_info":      
+	{
+		"Name":        "Name_",
+		"PersonalAcc": "PersonalAcc_",
+		"BankName":    "BankName_",
+		"BIC":         "BIC_",
+		"CorrespAcc":  "CorrespAcc_",
+		"KPP":         "KPP_",
+		"PayeeINN":    "PayeeINN_"
+	},
+	"Diary_children_login":    "Diary_children_login_",
+	"Diary_children_password": "Diary_children_password_"
+}
+
+Заключение контракта
+URL: http://<backend_ip>:<backend_port>/sign_contract/
+{
+	"Login_parent" :           "New_user",
+	"Password_parent":         "New_user_password",
+	"Contract_":
+	{
+		"Firstname_children":      "CHILD_NAME",
+		"Secondname_children":     "CHILD_SURNAME",
+		"Photo_children":      "PHOTO_BASE_64_STRING",
+		"Contract_name":       "DNEVNIK_RU",
+		"Mark_policy":         
+		{
+			"One":   "0",
+			"Two":   "0",
+			"Three": "5",
+			"Four":  "10",
+			"Five":  "200"
+		}
+	},
+	"Diary_children_login":        "Diary_children_login_",
+	"Diary_children_password":     "Diary_children_password_",
+	"Photo_condition_parent":      "PHOTO_BASE_64_STRING",
+	"Photo_condition_children":    "PHOTO_BASE_64_STRING",
+	"Timer_interval_notisfaction": "Timer_interval_notisfaction_"
+}
+
+Вход
+URL: http://<backend_ip>:<backend_port>/enter/
+{
+	"Login_parent" :           "New_user",
+	"Password_parent":         "New_user_password"
+}
+
+
+Завершение контракта
+URL: http://<backend_ip>:<backend_port>/finish_contract/
+{
+	"Login_parent" :           "New_user",
+	"Password_parent":         "New_user_password",
+	"Contract_":
+	{
+		"Firstname_children":      "CHILD_NAME",
+		"Secondname_children":     "CHILD_SURNAME",
+		"Contract_name":       "DNEVNIK_RU"	
+	},
+	"Photo_condition_parent":   "PHOTO_BASE_64_STRING",
+	"Photo_condition_children": "PHOTO_BASE_64_STRING"
+}
+
+
+Вход (снова, чтобы убедиться, что контракт удалился)
+URL: http://<backend_ip>:<backend_port>/enter/
+{
+	"Login_parent" :           "New_user",
+	"Password_parent":         "New_user_password"
+}
+
+
+
