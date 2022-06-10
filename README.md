@@ -104,8 +104,8 @@ This illustrations demonstrates using the `desktop GUI application` of `Social-C
 </p>
 
 <p align="center">
-<img src="./resources/screen4_0.png" />
-<img src="./resources/screen4.png" height="643" />
+<img src="./resources/screen4_0.png" width="362" />
+<img src="./resources/screen4.png" width="359" height="643" />
 </p>
 
 <p align="center">
