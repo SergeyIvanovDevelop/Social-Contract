@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/SergeyIvanovDevelop/Social-Contract">
-    <img alt="Social-Contract" src="./resources/Social-Contract.png"/>
+    <img alt="Social-Contract" src="./resources/Social-Contract.png" width="280" height="280"/>
   </a>
 </p>
 <h1 align="center">
@@ -16,6 +16,12 @@ This repository contains code and configuration files for deploying the `Social-
 1. Parent and child need to register in `Social-Contract` platform via `Desktop GUI Application`. There, the parent enters their data, the child's data (including the _open_ data of the child's bank card) and the data for entering the electronic diary platform [Dnevnik.ru](https://dnevnik.ru/) - so that the platform can track the child's grades. During the registration process, the policy for calculating material incentives for grades is also selected.
 
 2. After registration on the platform is completed, the parent subscribes to the `Telegram` bot, enters the necessary identification data, and subsequently, at his request, the bot will generate a `QR` code for payment in a mobile bank (_tested in the bank [Tinkoff bank](https://www.tinkoff.ru/)_) for a parent in accordance with the financial incentive policies described in the contract.
+
+3. The general scheme of the platform is shown in the image: <br>
+
+<p align="center">
+<img src="./resources/scheme.png"/>
+</p>
 
 ## :computer: Getting Started  ##
 
@@ -79,18 +85,47 @@ Child's last name: San
 
 ----> Child login: LOGIN_Ivan_San_login_1_*
 
-**:clapper: Example using (GIF):**<br>
 
-This animation demonstrates scenarios for using the `desktop GUI application` of `Social-Contract` platform.<br>
+**:framed_picture: Illustrations:**<br>
+
+This illustrations demonstrates using the `desktop GUI application` of `Social-Contract` platform.<br>
 
 <p align="center">
-  <img src="./resources/GUI.gif" alt="animated" />
+<img src="./resources/screen1.png" width="180" height="320"/>
 </p>
+
+<p align="center">
+<img src="./resources/screen2.png" width="180" height="320"/>
+</p>
+
+<p align="center">
+<img src="./resources/screen3_0.png" width="180" height="320"/>
+<img src="./resources/screen3.png" width="180" height="320"/>
+</p>
+
+<p align="center">
+<img src="./resources/screen4_0.png" width="180" height="320"/>
+<img src="./resources/screen4.png" width="180" height="320"/>
+</p>
+
+<p align="center">
+<img src="./resources/screen5.png" width="180" height="320"/>
+</p>
+
+<p align="center">
+<img src="./resources/screen6.png" width="180" height="320"/>
+</p>
+
+<p align="center">
+<img src="./resources/screen7.png" width="180" height="320"/>
+</p>
+
+**:clapper: Example using (GIF):**<br>
 
 This animation demonstrates scenarios for using the `Telegram`-bot of `Social-Contract` platform.<br>
 
 <p align="center">
-  <img src="./resources/tg-bot.gif" alt="animated" />
+  <img src="./resources/telegram-bot.gif" alt="animated" />
 </p>
 
 ### :bookmark_tabs: Licence ###
