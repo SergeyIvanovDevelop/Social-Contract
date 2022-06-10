@@ -91,33 +91,33 @@ Child's last name: San
 This illustrations demonstrates using the `desktop GUI application` of `Social-Contract` platform.<br>
 
 <p align="center">
-<img src="./resources/screen1.png" width="180" height="320"/>
+<img src="./resources/screen1.png" />
 </p>
 
 <p align="center">
-<img src="./resources/screen2.png" width="180" height="320"/>
+<img src="./resources/screen2.png" />
 </p>
 
 <p align="center">
-<img src="./resources/screen3_0.png" width="180" height="320"/>
-<img src="./resources/screen3.png" width="180" height="320"/>
+<img src="./resources/screen3_0.png" />
+<img src="./resources/screen3.png" />
 </p>
 
 <p align="center">
-<img src="./resources/screen4_0.png" width="180" height="320"/>
-<img src="./resources/screen4.png" width="180" height="320"/>
+<img src="./resources/screen4_0.png" />
+<img src="./resources/screen4.png" />
 </p>
 
 <p align="center">
-<img src="./resources/screen5.png" width="180" height="320"/>
+<img src="./resources/screen5.png" />
 </p>
 
 <p align="center">
-<img src="./resources/screen6.png" width="180" height="320"/>
+<img src="./resources/screen6.png" />
 </p>
 
 <p align="center">
-<img src="./resources/screen7.png" width="180" height="320"/>
+<img src="./resources/screen7.png" />
 </p>
 
 **:clapper: Example using (GIF):**<br>
