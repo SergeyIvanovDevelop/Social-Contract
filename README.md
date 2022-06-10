@@ -99,13 +99,13 @@ This illustrations demonstrates using the `desktop GUI application` of `Social-C
 </p>
 
 <p align="center">
-<img src="./resources/screen3_0.png" />
+<img src="./resources/screen3_0.png" height="835" />
 <img src="./resources/screen3.png" />
 </p>
 
 <p align="center">
 <img src="./resources/screen4_0.png" />
-<img src="./resources/screen4.png" />
+<img src="./resources/screen4.png" height="643" />
 </p>
 
 <p align="center">
@@ -117,7 +117,7 @@ This illustrations demonstrates using the `desktop GUI application` of `Social-C
 </p>
 
 <p align="center">
-<img src="./resources/screen7.png" />
+<img src="./resources/screen7.png" width="180" height="320"/>
 </p>
 
 **:clapper: Example using (GIF):**<br>
