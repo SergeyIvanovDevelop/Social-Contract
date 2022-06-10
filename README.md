@@ -91,7 +91,7 @@ Child's last name: San
 This illustrations demonstrates using the `desktop GUI application` of `Social-Contract` platform.<br>
 
 <p align="center">
-<img src="./resources/screen1.png" />
+<img src="./resources/screen1.png" width="358" />
 </p>
 
 <p align="center">
@@ -117,7 +117,7 @@ This illustrations demonstrates using the `desktop GUI application` of `Social-C
 </p>
 
 <p align="center">
-<img src="./resources/screen7.png" width="180" height="320"/>
+<img src="./resources/screen7.png"/>
 </p>
 
 **:clapper: Example using (GIF):**<br>
@@ -125,7 +125,7 @@ This illustrations demonstrates using the `desktop GUI application` of `Social-C
 This animation demonstrates scenarios for using the `Telegram`-bot of `Social-Contract` platform.<br>
 
 <p align="center">
-  <img src="./resources/telegram-bot.gif" alt="animated" />
+  <img src="./resources/telegram_bot.gif" alt="animated" />
 </p>
 
 ### :bookmark_tabs: Licence ###
